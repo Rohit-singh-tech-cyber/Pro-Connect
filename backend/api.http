@@ -1,0 +1,58 @@
+POST http://localhost:9090/send-otp HTTP/1.1
+content-Type:application/json
+
+{
+    "username":"srishti",
+    "password":"653728",
+    "email":"srishtishukla0208@gmail.com",
+    "name":"didbjsbx"
+}
+
+###
+
+POST http://localhost:9090/login HTTP/1.1
+content-Type: application/json
+
+
+{
+    "email": "srishtwidbkwn",
+    "password":"653728"
+}
+
+###
+POST http://localhost:9090/get_user_and_profile
+Content-Type: application/json
+
+{
+   "token":"7015e2773e79898b7dc001d4d0442c358ee32c132fe500af72da66867d499372"
+}
+
+
+###
+POST http://localhost:9090/update_profile_data
+Content-Type: application/json
+
+{
+"token":"5ad9cace79c5db18c36c799c6c626d4149da94541ed057a6baa1bcfaeeb95cfa",
+"bio":"Hey,I am Srishti",
+"currentPost":"CTO",
+"pastWork":[
+    {
+        "company":"Microsoft",
+        "position":"CTO",
+        "years":"2"
+    }
+],
+"education":[
+    {
+        "school":"NIT",
+        "degree":"B.Tech",
+        "fieldOfStudy":"2015-2019"
+    }
+]
+}
+
+###
+
+GET http://localhost:9090/user/get_all_users
+

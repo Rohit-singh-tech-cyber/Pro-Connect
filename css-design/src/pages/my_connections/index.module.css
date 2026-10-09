@@ -1,0 +1,112 @@
+/* .myConnectionsContainer{
+    display:flex;
+    flex-direction: column;
+    gap:1.2rem;
+    height: 10%;
+} */
+
+/* 
+.userCard{
+    width: 70%;
+    min-height: 120px;   /* height reduce */
+    /* padding: 1rem 2rem ;
+    display: flex; */
+    /* justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 15px */
+ 
+
+
+
+/* 
+.profilePicture img{
+    width:48%;
+    border-radius: 50%;
+    /* height:48%; */
+    /* object-fit:cover;
+    align-items: center;
+} */ 
+/* 
+.myConnection{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    padding-bottom: 1.5rem;
+    cursor:pointer;
+} */
+
+/* 
+.acceptButton{
+    padding-inline:0.8rem;
+    padding-block:0.3rem;
+    /* background:rgb(6, 6, 103); */
+    /* outline:none;
+    border:1px solid */
+    /* color:white; */
+   /* / border-radius: 10px; */
+    /* cursor:pointer; */
+
+
+
+.userCard{
+    width: 600px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 35px;
+
+    margin-top: 1.5rem;
+
+    background: white;
+
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.userDetails{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+
+.profilePicture{
+    width:85px;
+    height:85px;
+}
+
+
+.profilePicture img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+.userInfo h3{
+    font-size:1.1rem;
+    margin:0;
+    font-weight:600;
+}
+
+
+.userInfo p{
+    margin-top:5px;
+    font-size:0.9rem;
+}
+
+
+.acceptButton{
+   padding-inline:0.8rem;
+    padding-block:0.3rem;
+    background:rgb(6, 6, 103);
+    outline:none; 
+    border:1px solid ;
+    color:white;
+    border-radius: 10px;
+    cursor:pointer;
+}
